@@ -1,1 +1,3 @@
-
+int number = Integer.valueOf(scanner.nextLine());       // read a integer 
+                                                        // read a double: double number = Double.valueOf(scanner.nextLine())
+                                                        // read a boolean: boolean truth = Boolean.valueOf(scanner.nextLine());
