@@ -1,1 +1,5 @@
-
+import java.util.Scanner;                  // Allows to use class "Scanner" from standart package "java" 
+Scanner scanner = new Scanner(System.in);  // This is a class designed to read the entered data. scanner - is the name of the variable.
+                                           // new - is the keyword creates a new object of the Scanner class
+                                           // System.in - is the standard Java input stream associated with the keyboard.
+String message = scanner.nextLine();       // read a string
